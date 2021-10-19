@@ -4,8 +4,6 @@ public class Student_info {
 
     Scanner sc = new Scanner (System.in);
 
-    // private static int global_check = 0;
-
     static ArrayList<Integer> grades0 = new ArrayList<>();
 
     static ArrayList<String> submissions0 = new ArrayList<>();
@@ -31,64 +29,6 @@ public class Student_info {
     static ArrayList<Integer> grades_by2 = new ArrayList<>();
 
     private int total = Assessments.assessments_list.size();
-
-
-    // {
-    // if (global_check==0){
-
-    //     for (int ii = 0 ; ii<total ; ii++){
-    //         grades0.add(-1);
-    //     }
-
-    //     for (int k = 0 ; k<total ; k++){
-    //         assessments_condition0.add("not done");
-    //     }
-
-    //     for (int m = 0 ; m<total ; m++){
-    //         submissions0.add("-1");
-    //     }
-
-    //     for (int ii = 0 ; ii<total ; ii++){
-    //         grades1.add(-1);
-    //     }
-
-    //     for (int k = 0 ; k<total ; k++){
-    //         assessments_condition1.add("not done");
-    //     }
-
-    //     for (int m = 0 ; m<total ; m++){
-    //         submissions1.add("-1");
-    //     }
-
-    //     for (int ii = 0 ; ii<total ; ii++){
-    //         grades2.add(-1);
-    //     }
-
-    //     for (int k = 0 ; k<total ; k++){
-    //         assessments_condition2.add("not done");
-    //     }
-
-    //     for (int m = 0 ; m<total ; m++){
-    //         submissions2.add("-1");
-    //     }
-
-    //     for (int zz = 0 ; zz<total ; zz++){
-    //         grades_by0.add(-1);
-    //     }
-
-    //     for (int ii = 0 ; ii<total ; ii++){
-    //         grades_by1.add(-1);
-    //     }
-
-    //     for (int ii = 0 ; ii<total ; ii++){
-    //         grades_by2.add(-1);
-    //     }
-
-    //     global_check = 1;
-
-    //     }
-    // }
-
 
     public void student0_submit_assessments(int id) {
 
